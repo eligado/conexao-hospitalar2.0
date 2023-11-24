@@ -1,7 +1,11 @@
+import dynamic from 'next/dynamic'
+
 import Header from '@/components/Header';
-import './home.css'
-import Mapa from '@/components/Mapa';
 import Footer from '@/components/Footer';
+
+import './home.css'
+
+const Mapa = dynamic(() => import("@/components/Mapa"), { ssr: false });
 
 export const metadata = {
     title: 'Conexão Hospitalar'
