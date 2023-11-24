@@ -1,0 +1,44 @@
+.popupWrapper * {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.popupWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+
+.popupTitle {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.popupTime {
+    font-weight: 500;
+}
+
+.upaLeafletIcon {
+    background-image: url('../../../public/upa.png');
+    width: 50px;
+    height: 50px;
+}
+
+.ubsLeafletIcon {
+    background-image: url('../../../public/ubs.png');
+    width: 50px;
+    height: 50px;
+}
+
+.spaLeafletIcon {
+    background-image: url('../../../public/spa.png');
+    width: 50px;
+    height: 50px;
+}
+
+.hosLeafletIcon {
+    background-image: url('../../../public/hos.png');
+    width: 50px;
+    height: 50px;
+}

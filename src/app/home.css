@@ -1,0 +1,27 @@
+.projeto {
+    background-color: rgb(204, 235, 235); 
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto; 
+    max-width: calc(100% - 80px);
+    border-radius: 1em;
+}
+
+.main {
+    min-height: calc(100vh - 200px);
+}
+
+.titulo-projeto {
+    color: #333;
+}
+
+.intro {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mapa {
+    margin-top: 3rem;
+    text-align: center;
+}

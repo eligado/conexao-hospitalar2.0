@@ -1,0 +1,50 @@
+/* Logo */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(39, 39, 39);
+  display: flex;
+  padding: 1em;
+}
+
+.header_logoimg {
+  width: 100px;
+  height: 100px;
+  padding-right: 10px;
+}
+
+.vazio {
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+  color: black;
+  border-right: 1px solid black;
+}
+
+.texto-logo {
+  display: none;
+  padding: 1.5rem;
+  font-weight: bold;
+}
+
+/**logo ate 320px**/
+@media (max-width: 320px) {
+  .header_logoimg {
+    display: block;  /* Torna a imagem visível */
+  }
+
+  .texto-logo {
+    display: none;  /* Esconde o texto do logo */
+  }
+
+  .vazio{
+    display: none;
+  }
+}
