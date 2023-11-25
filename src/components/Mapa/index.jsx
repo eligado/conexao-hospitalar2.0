@@ -10,7 +10,7 @@ import { locations } from './locations'
 
 export default function MyMap () {
   return (
-    <MapContainer  center={[-3.0700, -60.0161]} zoom={13} scrollWheelZoom={false} style={{ width: '100%', height: '58vh' }}>
+    <MapContainer  center={[-3.0700, -60.0161]} zoom={13} scrollWheelZoom={true} style={{ width: '100%', height: '58vh' }}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
