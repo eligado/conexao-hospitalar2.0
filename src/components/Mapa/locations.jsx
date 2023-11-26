@@ -175,4 +175,37 @@ export const locations = [
     time: "24h",
     address: "Av. Prof. Nilton Lins, 3259 - Flores",
   },
+  { 
+
+    icon: "hos",
+    lat: -3.1164,
+    lng: -60.01893,
+    title: "Hospital Universitário Getúlio Vargas",
+    time: "24h",
+    address: "R. Tomas de Vila Nova, 300 - Centro",
+},
+{
+  icon: "hos",
+  lat: -3.1188816,
+  lng: -60.0056021,
+  title: "Hospital Adriano Jorge",
+  time: "24h",
+  address: "Av. Carvalho Leal, 1778 - Cachoeirinha",
+},
+{
+  icon: "hos",
+  lat: -3.09445,
+  lng: -60.05735,
+  title: "Hospital e Pronto Socorro da Criança",
+  time: "24h",
+  address: "Av. Brasil, 989 - Compensa",
+},
+{
+  icon: "hos", 
+  lat: -3.08605, 
+  lng: -60.02719, 
+  title: "Hospital Hemoam",
+  time: "24h",
+  address: "Av. Pedro Teixeira - Dom Pedro",
+},
 ];
