@@ -1,9 +1,24 @@
-/* Logo */
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Distribui os elementos ao longo do eixo principal (horizontalmente) */
   align-items: center;
+  padding: 10px; /* Adiciona algum espaçamento ao redor dos elementos */
 }
+
+.overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  background: black;
+}
+
+/* Logo */
 
 .header_logo {
   font-size: 20px;
@@ -11,6 +26,7 @@
   color: rgb(39, 39, 39);
   display: flex;
   padding: 1em;
+  float: left;
 }
 
 .header_logoimg {
@@ -19,32 +35,128 @@
   padding-right: 10px;
 }
 
-.vazio {
-  font-size: 30px;
-  font-weight: bolder;
-  cursor: pointer;
-  display: none;
-  color: black;
-  border-right: 1px solid black;
-}
 
 .texto-logo {
-  display: none;
   padding: 1.5rem;
   font-weight: bold;
 }
 
-/**logo ate 320px**/
-@media (max-width: 320px) {
-  .header_logoimg {
-    display: block;  /* Torna a imagem visível */
-  }
 
-  .texto-logo {
-    display: none;  /* Esconde o texto do logo */
-  }
 
-  .vazio{
-    display: none;
+.superdiv{
+  display: flex;
+  justify-content: center;
+}
+
+#main-menu {
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#main-menu ul {
+
+  margin: 0px auto;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-menu li {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+#main-menu a {
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+#main-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input {
+  display: none;
+}
+
+#hamburger-menu {
+  top: 20px;
+  right: 20px; 
+  width: 50px;
+  height: 50px;
+  display: none;
+  border: none;
+  padding: 0px;
+  margin: 35px 20px;
+  font-family: 'Cabin', Sans-serif;
+  background: linear-gradient(
+      to bottom,
+      rgb(150, 117, 84), rgb(150, 117, 84) 20%,
+      transparent  0%, transparent  40%,
+      rgb(150, 117, 84) 40%, rgb(150, 117, 84) 60%,
+      transparent  60%, transparent 80%,
+      rgb(150, 117, 84) 80%, rgb(150, 117, 84) 100%
+  );
+}
+
+#hamburger-menu #sidebar-menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #a55e35;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+#hamburger-menu h3 {
+  color: #000;
+  font-size: 2.2rem;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+  visibility: visible;
+  right: 0; 
+}
+
+#hamburger-input:checked ~ .overlay {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 750px) {
+  #main-menu {
+      display: none;
+  }
+  #hamburger-menu {
+      display: inline;
   }
 }

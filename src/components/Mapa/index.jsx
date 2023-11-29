@@ -10,13 +10,14 @@ import { locations } from './locations'
 
 export default function MyMap () {
   return (
-    <MapContainer  center={[-3.0700, -60.0161]} zoom={13} scrollWheelZoom={true} style={{ width: '100%', height: '58vh' }}>
+    <div className="map-container">
+    <MapContainer  center={[-3.0700, -60.0161]} zoom={13} scrollWheelZoom={true} style={{ width: '95%', height: '58vh' }} className='map'>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {locations.map((L) => (
-        <Marker position={[L.lat, L.lng]} icon={Leaflet.divIcon({ className: `${L.icon}LeafletIcon`, iconSize: [30, 30] })}>
+        <Marker key={L.address} position={[L.lat, L.lng]} icon={Leaflet.divIcon({ className: `${L.icon}LeafletIcon`, iconSize: [30, 30] })}>
           <Popup>
             <div className='popupWrapper'>
               <span className='popupTitle'>{L.title}</span>
@@ -27,5 +28,6 @@ export default function MyMap () {
         </Marker>)
       )}
     </MapContainer>
+    </div>
   )
 };

@@ -1,3 +1,11 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0px !important;
+}
+
 .popupWrapper * {
     margin: 0px !important;
     padding: 0px !important;
