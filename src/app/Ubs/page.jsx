@@ -1,10 +1,9 @@
+import Image from "next/image";
 
 import './index.css'
 
-import Header from '@/components/Header';
-
 export const metadata = {
-    title: 'Conexão Hospitalar - ubs'
+    title: 'Conexão Hospitalar - UBS'
 }
 
 export default function Ubs(){
@@ -21,50 +20,276 @@ export default function Ubs(){
                 </div>
             </div>
 
-            <div className='card'>
-                    <h2 className='card-title'>UBS</h2>
-                    <p></p>
-                    <div className='flip-card-horizon'>
-                        <div className='flip-card'>
-                            <div className='flip-card-inner'>
-                                <div className='flip-card-front'>
-                                    <h2>UBS1</h2>
-                                </div>
-                            
-                                <div className='flip-card-back'>
-                                    <h2>Teste Costa</h2>
-                                    <p>Teste Paragrafo</p>
-                                </div>
-                            </div>
-                        </div>
+            <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
 
-                        <div className='flip-card'>
-                            <div className='flip-card-inner'>
-                                <div className='flip-card-front'>
-                                    <h2>UBS2</h2>
-                                </div>
-                            
-                                <div className='flip-card-back'>
-                                    <h2>Teste Costa</h2>
-                                    <p>Teste Paragrafo</p>
-                                </div>
-                            </div>
-                        </div>
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
 
-                        <div className='flip-card'>
-                            <div className='flip-card-inner'>
-                                <div className='flip-card-front'>
-                                    <h2>UBS3</h2>
-                                </div>
-                            
-                                <div className='flip-card-back'>
-                                    <h2>Teste Costa</h2>
-                                    <p>Teste Paragrafo</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
             </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-super">
+          <div className="container-info">
+            <Image
+              src={"/redencao.jpg"}
+              width={500}
+              height={550}
+              className="img-container"
+              priority={true}
+              alt="imagem de uma unidade de saúde"
+            />
+
+            <div className="info">
+              <h2 className="titulo-info texto-info">
+              SPA Redenção
+              </h2>
+              <h3 className="tipo-info ">SPA</h3>
+
+              <p className="hor-info base-info texto-info">
+                Horário de Funcionamento:
+              </p>
+              <p className="base-info texto-info">Aberto 24 horas</p>
+              <p className="base-info texto-info">
+                Endereço: R. Maracanã, 13 - Redenção, Manaus - AM, 69047-481
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
 
     );
