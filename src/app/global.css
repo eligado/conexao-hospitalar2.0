@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -14,15 +15,32 @@ footer {
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+a,
+ul,
+li {
+  all: unset;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
   width: 100%;
   overflow-x: hidden;
+}
+
+.main {
+  margin-bottom: 2rem;
 }
