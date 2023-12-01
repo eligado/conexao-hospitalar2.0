@@ -71,8 +71,10 @@
         margin-top: 2rem;
     }
 
-    /* .map-top-container {} */
-
+    .map-top-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
     /* .map-title-container {} */
 
     /* .map-description-container {} */
@@ -156,8 +158,10 @@
         margin-top: 2rem;
     }
 
-    /* .map-top-container {} */
-
+    .map-top-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
     /* .map-title-container {} */
 
     /* .map-description-container {} */
@@ -241,7 +245,10 @@
         margin-top: 2rem;
     }
 
-    /* .map-top-container {} */
+    .map-top-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 
     /* .map-title-container {} */
 
