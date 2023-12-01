@@ -34,7 +34,7 @@ export default function Ubs() {
       <section className="container-super">
         <div className="container-info">
           <div className="img-container">
-            <Image src={'/s51.jpg'} fill style={{ objectFit: 'cover' }} alt="imagem de uma unidade de saúde" />
+            <Image src={'/S51.jpg'} fill style={{ objectFit: 'cover' }} alt="imagem de uma unidade de saúde" />
           </div>
 
           <div className="info">
